@@ -1,7 +1,7 @@
 const securityHeaders = [
   {
     key: 'Content-Security-Policy',
-    value: 'frame-src https://camo.githubusercontent.com',
+    value: 'frame-src https://embed-widget.minung.dev',
   },
 ];
 
@@ -24,11 +24,11 @@ const nextConfig = {
   },
   async headers() {
     return [
-      {
-        // Apply these headers to all routes in your application.
-        source: '/widget',
-        headers: securityHeaders,
-      },
+      // {
+      //   // Apply these headers to all routes in your application.
+      //   source: '/widget',
+      //   headers: securityHeaders,
+      // },
     ];
   },
 };
