@@ -1,7 +1,7 @@
 const securityHeaders = [
   {
     key: 'Content-Security-Policy',
-    value: 'frame-ancestors https://camo.githubusercontent.com',
+    value: "default-src 'self' 'unsafe-inline' https://blog-new.minung.dev;",
   },
 ];
 
