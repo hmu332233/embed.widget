@@ -14,12 +14,8 @@ const nextConfig = {
   rewrites: async () => {
     return [
       {
-        source: '/widget',
-        destination: '/api/widget',
-      },
-      {
-        source: '/widget/youtube',
-        destination: '/api/widget/youtube',
+        source: '/widget/:path*',
+        destination: '/api/widget/:path*',
       },
     ];
   },
