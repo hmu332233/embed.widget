@@ -28,6 +28,7 @@
           margin-left: 1rem; 
         }
         .profile .info .name {
+          color: #111827;
           font-size: 1.25rem;
           line-height: 1.75rem; 
           font-weight: 700; 
@@ -65,6 +66,23 @@
         .prose strong {
           color: #111827;
           font-weight: 600;
+        }
+        @media (prefers-color-scheme: dark) {
+          .container {
+            background: #30363d;
+          }
+          .profile .info .name {
+            color: #111827;
+          }
+          .profile .info .description {
+            color: #4B5563; 
+          }
+          .prose {
+            color: #374151;
+          }
+          .prose .anchor {
+            color: #111827;
+          }
         }
       </style>
       <div class="container">
