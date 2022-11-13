@@ -1,4 +1,4 @@
-<svg fill="none" width="560" height="450" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" width="600" height="450" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
@@ -8,11 +8,12 @@
         }
         .container {
           font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-          width: 100%; 
           display: flex; 
-          padding: 1.25rem; 
+          padding: 1.5rem; 
           flex-direction: column; 
-          max-width: 768px; 
+          width: 540px;
+          background-color: #fff; 
+          border-radius: 5%;
         }
         .profile {
           display: flex; 
@@ -68,7 +69,7 @@
       </style>
       <div class="container">
         <div class="profile">
-          <img src="https://avatars2.githubusercontent.com/u/10302969?v=4?v=3&amp;s=88" />
+          <img src="data:image/jpeg;base64,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" />
           <div class="info">
             <h2 class="name">minung.han</h2>
             <div class="description">내가 쓰기 위해 만드는 자급자족 사이드 프로젝트를 즐겨합니다.</div>
